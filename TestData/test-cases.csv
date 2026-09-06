@@ -1,0 +1,35 @@
+TC_ID,Module,Scenario,Precondition,Test Data,Expected Result,Priority,Automation
+TC-001,Home,Verify Home screen loads,App installed and launched,None,Home screen and WEBDRIVER branding are visible,P0,Yes
+TC-002,Home,Verify Home screen support text,Home screen open,None,Support text is visible,P1,Yes
+TC-003,Navigation,Navigate Home to Login,App launched,None,Login tab opens Login / Sign up Form,P0,Yes
+TC-004,Navigation,Navigate Home to Forms,App launched,None,Forms screen opens,P0,Yes
+TC-005,Navigation,Navigate Home to Swipe,App launched,None,Swipe screen opens,P1,Yes
+TC-006,Navigation,Navigate Home to Drag,App launched,None,Drag and Drop screen opens,P1,Yes
+TC-007,Navigation,Navigate Home to Webview,App launched,None,WebView screen is displayed,P1,Yes
+TC-008,Login,Verify login form controls,Login screen open,None,Email Password and LOGIN controls are visible,P0,Yes
+TC-009,Login,Login with valid email and password,Login screen open,test@example.com / Password123,Success alert with You are logged in!,P0,Yes
+TC-010,Login,Reject invalid email,Login screen open,test / Password123,Please enter a valid email address is shown,P0,Yes
+TC-011,Login,Reject short password,Login screen open,test@example.com / Pass123,Please enter at least 8 characters is shown,P0,Yes
+TC-012,Login,Reject invalid email and short password,Login screen open,test / Pass123,Both validation messages are shown,P0,Yes
+TC-013,Login,Switch from Login to Sign up,Login screen open,None,Confirm password field and SIGN UP button are shown,P0,Yes
+TC-014,Login,Reject mismatched sign-up passwords,Sign-up mode,newuser@example.com / NewUser123 / NewUser124,Please enter the same password is shown,P0,Yes
+TC-015,Login,Accept valid sign-up data,Sign-up mode,newuser@example.com / NewUser123 / NewUser123,Signed Up alert is displayed,P0,Yes
+TC-016,Forms,Verify form component screen,Forms screen open,None,Input Switch Dropdown Active and Inactive controls are visible,P0,Yes
+TC-017,Forms,Type text and verify echo,Forms screen open,Mobilewright,Entered text appears in result field,P0,Yes
+TC-018,Forms,Verify max input length,Forms screen open,30-character string,Input is limited to 30 characters,P1,Yes
+TC-019,Forms,Toggle switch ON,Forms screen open,None,Switch becomes checked and text changes to turn switch OFF,P0,Yes
+TC-020,Forms,Toggle switch OFF,Switch ON,None,Switch becomes unchecked and text changes to turn switch ON,P1,Yes
+TC-021,Forms,Select dropdown option 1,Forms screen open,webdriver.io is awesome,Selected option is displayed,P1,Yes
+TC-022,Forms,Select dropdown option 2,Forms screen open,Appium is awesome,Selected option is displayed,P1,Yes
+TC-023,Forms,Select dropdown option 3,Forms screen open,This app is awesome,Selected option is displayed,P1,Yes
+TC-024,Forms,Verify Active button alert,Forms screen open,None,Alert says This button is active,P0,Yes
+TC-025,Forms,Verify Inactive button disabled,Forms screen open,None,Inactive button cannot be tapped,P0,Yes
+TC-026,Swipe,Verify Swipe screen,Swipe tab selected,None,Swipe horizontal and Carousel are visible,P1,Yes
+TC-027,Swipe,Swipe carousel left,Swipe screen open,None,Carousel moves to previous item,P1,Yes
+TC-028,Swipe,Swipe carousel right,Swipe screen open,None,Carousel moves to next item,P1,Yes
+TC-029,Swipe,Vertical swipe reveals hidden content,Swipe screen open,None,Vertical scroll changes viewport,P2,Yes
+TC-030,Webview,Verify WebDriverIO webview opens,Webview tab selected,None,WebView is visible,P1,Yes
+TC-031,Drag,Verify drag-and-drop board,Drag tab selected,None,9 draggable pieces and 9 drop zones are visible,P1,Yes
+TC-032,Drag,Drag each piece to matching position,Drag board open,drag-l1 -> drop-l1 etc.,Correct placement increments completion counter,P0,Manual/Review
+TC-033,Drag,Complete all nine drag operations,Drag board open,All 9 matching pairs,Success overlay Congratulations is displayed,P0,Manual/Review
+TC-034,Drag,Reset drag-and-drop board,Drag board open,None,Board resets and draggable pieces are restored,P1,Yes

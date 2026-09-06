@@ -1,0 +1,24 @@
+{
+  "validLogin": {
+    "email": "test@example.com",
+    "password": "Password123"
+  },
+  "invalidEmails": [
+    "test",
+    "test@",
+    "@example.com",
+    "test@example",
+    "test example.com"
+  ],
+  "shortPassword": "Pass123",
+  "validSignUp": {
+    "email": "newuser@example.com",
+    "password": "NewUser123",
+    "repeatPassword": "NewUser123"
+  },
+  "mismatchSignUp": {
+    "email": "newuser@example.com",
+    "password": "NewUser123",
+    "repeatPassword": "NewUser124"
+  }
+}

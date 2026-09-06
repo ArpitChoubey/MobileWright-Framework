@@ -1,0 +1,12 @@
+{
+  "textValues": [
+    "Mobilewright",
+    "WebdriverIO automation",
+    "123456789012345678901234567890"
+  ],
+  "dropdownOptions": [
+    { "value": "1", "label": "webdriver.io is awesome" },
+    { "value": "2", "label": "Appium is awesome" },
+    { "value": "3", "label": "This app is awesome" }
+  ]
+}
