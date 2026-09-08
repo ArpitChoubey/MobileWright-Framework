@@ -46,11 +46,16 @@ A test may need to interact with:
 - Test data
 - Reusable page components
 
+
+
+
+
+
 A maintainable automation solution therefore needs more than individual test scripts.
 
 This project focuses on building a **structured automation framework** where tests, page objects, fixtures and test data have clearly defined responsibilities.
 
-```text
+
                  Mobile Application
                          │
                          ▼
@@ -154,6 +159,9 @@ Build mobile automation that remains maintainable as application coverage grows.
 
 
 📂 Repository Structure
+
+
+
 MobileWright-Framework/
 │
 ├── TestData/
@@ -192,11 +200,21 @@ MobileWright-Framework/
 🧩 Framework Components
 📱 Application Layer
 
+
+
+
+
+
 The repository includes an Android native demo application under:
 
 app/
 
 This provides an application target for exercising mobile automation scenarios.
+
+
+
+
+
 
 📄 Page Object Model
 
@@ -295,6 +313,11 @@ Page Object
 Application Interaction
       ↓
 Validation
+
+
+
+
+
 📱 Mobile Testing Areas
 
 The current framework structure provides coverage across several important mobile automation areas:
@@ -339,8 +362,17 @@ Application
 
 helps establish that foundation.
 
+
+
+
+
 🛠️ Technology Stack
 <p align="center"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/MobileWright-Automation-6C5CE7?style=flat-square"/> <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white"/> <img src="https://img.shields.io/badge/Mobile%20Testing-0A66C2?style=flat-square"/> <img src="https://img.shields.io/badge/Page%20Object%20Model-FF6F00?style=flat-square"/> <img src="https://img.shields.io/badge/Fixtures-8E44AD?style=flat-square"/> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/> </p>
+
+
+
+
+
 Core Areas
 TypeScript
 MobileWright
@@ -357,6 +389,11 @@ Git & GitHub
 ▶️ Getting Started
 1️⃣ Clone the Repository
 git clone https://github.com/ArpitChoubey/MobileWright-Framework.git
+
+
+
+
+
 
 Navigate into the project:
 
@@ -383,6 +420,10 @@ npm test
 
 The exact execution command should follow the scripts configured in the repository's package.json.
 
+
+
+
+
 📊 Automation Strategy
 
 The framework follows a layered approach:
@@ -405,6 +446,11 @@ The framework follows a layered approach:
              Validation
 
 This design helps keep test intent separate from implementation details.
+
+
+
+
+
 
 🎯 What This Repository Demonstrates
 
@@ -434,6 +480,12 @@ Maintainable test architecture
 Structured repository organization
 Configuration management
 Test data externalization
+
+
+
+
+
+
 👔 Why This Matters to QA Leaders
 
 A mobile automation framework should not be evaluated only by the number of scripts it contains.
@@ -454,6 +506,11 @@ Application
 
 That separation can make future expansion easier when additional mobile flows, screens and test data need to be introduced.
 
+
+
+
+
+
 🎯 Ideal For
 
 This project is relevant to:
@@ -468,6 +525,12 @@ QA Managers
 Test Automation Architects
 Engineering Managers
 Hiring Managers evaluating automation engineering skills
+
+
+
+
+
+
 📈 Scalability Direction
 
 As the framework grows, potential engineering directions include:
@@ -486,6 +549,12 @@ Device matrix execution
 Cloud device execution
 Enhanced test data management
 Automation observability
+
+
+
+
+
+
 🧪 Quality Engineering Mindset
 
 The purpose of automation is not:
@@ -508,6 +577,11 @@ A good automation framework should help the entire QA organization move faster w
 MobileWright Framework
 
 https://github.com/ArpitChoubey/MobileWright-Framework
+
+
+
+
+
 
 👨‍💻 About Me
 Arpit Choubey
@@ -536,6 +610,10 @@ Automation Framework Development
 
 I enjoy exploring modern approaches to test automation and sharing practical QA engineering knowledge with the testing community.
 
+
+
+
+
 🔗 Connect With Me
 💻 GitHub
 
@@ -553,6 +631,10 @@ I regularly share practical content around:
 
 QA Automation • Selenium • Cypress • Playwright • Mobile Testing • API Testing • AI Testing • Agentic AI • Quality Engineering
 
+
+
+
+
 ⭐ Support
 
 If you find this project useful:
@@ -565,6 +647,10 @@ If you find this project useful:
 🤝 Connect with me on LinkedIn
 
 Your feedback helps improve the framework and encourages continued exploration of modern Quality Engineering practices.
+
+
+
+
 
 💬 Final Thought
 
